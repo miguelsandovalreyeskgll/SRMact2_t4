@@ -1,0 +1,21 @@
+/* Hoja de estilos única para las tres páginas Thymeleaf. */
+* { box-sizing: border-box; }
+body { margin: 0; padding: 38px 16px; font-family: Arial, sans-serif; background: #f2f5fb; color: #17233b; }
+.contenedor { max-width: 850px; margin: 0 auto; background: white; padding: 32px; border: 1px solid #e2e7f0; border-radius: 14px; }
+.estrecho { max-width: 580px; }
+.subtitulo { color: #315cc5; font-size: 14px; font-weight: bold; }
+h1 { margin: 10px 0 12px; }
+p { line-height: 1.5; }
+nav { display: flex; flex-wrap: wrap; gap: 9px; margin: 24px 0; }
+a { color: #2355ce; }
+.boton { display: inline-block; border: 1px solid #cbd6e9; padding: 10px 14px; border-radius: 7px; text-decoration: none; background: #f7f9fc; color: #24468b; }
+.primario { background: #2355ce; border-color: #2355ce; color: white; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+th, td { padding: 13px; text-align: left; border-bottom: 1px solid #e6eaf1; }
+th { background: #eff4fd; }
+label { display: block; font-weight: bold; margin-top: 17px; }
+input, select { display: block; width: 100%; margin: 7px 0; padding: 11px; border-radius: 7px; border: 1px solid #b9c6d8; font: inherit; }
+form button { margin-top: 20px; }
+.respuesta { margin-top: 22px; padding: 14px; border-radius: 8px; background: #edf9f0; border: 1px solid #c3e9cd; }
+.nota { font-size: 13px; color: #526079; margin-top: 24px; }
+@media (max-width: 600px) { .contenedor { padding: 18px; } th, td { padding: 7px; font-size: 13px; } }
