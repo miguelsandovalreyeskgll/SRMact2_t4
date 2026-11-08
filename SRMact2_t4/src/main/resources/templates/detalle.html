@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Detalle de materia</title>
+    <link rel="stylesheet" th:href="@{/estilos.css}" href="/estilos.css">
+</head>
+<body>
+<main class="contenedor estrecho">
+    <p class="subtitulo" th:text="${nombreProyecto}">Nombre del proyecto</p>
+    <h1>Detalle de materia</h1>
+    <p><strong>ID:</strong> <span th:text="${materia.id}">1</span></p>
+    <p><strong>Nombre:</strong> <span th:text="${materia.nombre}">Programacion Web</span></p>
+    <p><strong>Categoría:</strong> <span th:text="${materia.categoria}">Web</span></p>
+    
+    <p><a th:href="@{/materias}">Volver a la lista</a></p>
+</main>
+</body>
+</html>
