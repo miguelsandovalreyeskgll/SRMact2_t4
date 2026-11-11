@@ -1,6 +1,6 @@
 # SRMact2_t4 — Spring MVC, Thymeleaf y DTOs
 
-**Autor:** Sandoval Reyes Miguel  
+**Autor:** Sandoval Reyes Miguel.  
 **Asignatura:** Programación Web · Tema 4  
 **Tecnologías:** Java 17, Spring Boot 4.1.0, Spring MVC, Thymeleaf, Gradle, HTML y CSS.
 
